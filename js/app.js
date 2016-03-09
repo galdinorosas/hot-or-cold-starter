@@ -39,41 +39,41 @@ $(document).ready(function() {
 
                 $('#feedback').text("ON ANOTHER PLANET...");
                 console.log("ON ANOTHER PLANET...");
-            } else if (guessCompare2Answer < 90 && guessCompare2Answer >= 80) {
+            } else if (guessCompare2Answer >= 80) {
 
                 $('#feedback').text("SUB-ZERO COLD!");
                 console.log("SUB-ZERO COLD!");
-            } else if (guessCompare2Answer < 80 && guessCompare2Answer >= 70) {
+            } else if (guessCompare2Answer >= 70) {
 
                 $('#feedback').text("ICE COLD");
                 console.log("ICE COLD");
 
-            } else if (guessCompare2Answer < 70 && guessCompare2Answer >= 60) {
+            } else if (guessCompare2Answer >= 60) {
 
                 $('#feedback').text("COOL");
                 console.log("COOL");
 
-            } else if (guessCompare2Answer < 60 && guessCompare2Answer >= 50) {
+            } else if (guessCompare2Answer >= 50) {
 
                 $('#feedback').text("WARM");
                 console.log("WARM");
-            } else if (guessCompare2Answer < 50 && guessCompare2Answer >= 40) {
+            } else if (guessCompare2Answer >= 40) {
 
                 $('#feedback').text("EVEN WARMER...");
                 console.log("EVEN WARMER...");
-            } else if (guessCompare2Answer < 40 && guessCompare2Answer >= 30) {
+            } else if (guessCompare2Answer >= 30) {
 
                 $('#feedback').text("HOT!");
                 console.log("HOT!");
-            } else if (guessCompare2Answer < 30 && guessCompare2Answer >= 20) {
+            } else if (guessCompare2Answer >= 20) {
 
                 $('#feedback').text("ON FIRE!!");
                 console.log("ON FIRE!!");
-            } else if (guessCompare2Answer < 20 && guessCompare2Answer >= 10) {
+            } else if (guessCompare2Answer >= 10) {
 
                 $('#feedback').text("BLAZIN HEAT!");
                 console.log("BLAZIN HEAT!");
-            } else if (guessCompare2Answer < 10 && guessCompare2Answer >= 1) {
+            } else if (guessCompare2Answer >= 1) {
 
                 $('#feedback').text("INFERNO FIRE HEAT!");
                 console.log("INFERNO FIRE HEAT!");
@@ -90,48 +90,47 @@ $(document).ready(function() {
 
                 $('#feedback').text("OTHER WAY AROUND.");
             } else if (currentGuess == previousGuess) {
-
                 $('#feedback').text("YOU PICKED THAT LAST TIME.");
                 console.log("YOU PICKED THAT LAST TIME.");
             } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 90) {
 
                 $('#feedback').text("ON ANOTHER PLANET...");
                 console.log("ON ANOTHER PLANET...");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 90 && guessCompare2Answer >= 80) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 80) {
 
                 $('#feedback').text("SUB-ZERO COLD!");
                 console.log("SUB-ZERO COLD!");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 80 && guessCompare2Answer >= 70) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 70) {
 
                 $('#feedback').text("ICE COLD");
                 console.log("ICE COLD");
 
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 70 && guessCompare2Answer >= 60) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 60) {
 
                 $('#feedback').text("COOL");
                 console.log("COOL");
 
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 60 && guessCompare2Answer >= 50) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 50) {
 
                 $('#feedback').text("WARM");
                 console.log("WARM");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 50 && guessCompare2Answer >= 40) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 40) {
 
                 $('#feedback').text("EVEN WARMER...");
                 console.log("EVEN WARMER...");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 40 && guessCompare2Answer >= 30) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 30) {
 
                 $('#feedback').text("HOT!");
                 console.log("HOT!");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 30 && guessCompare2Answer >= 20) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 20) {
 
                 $('#feedback').text("ON FIRE!!");
                 console.log("ON FIRE!!");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 20 && guessCompare2Answer >= 10) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 10) {
 
                 $('#feedback').text("BLAZIN HEAT!");
                 console.log("BLAZIN HEAT!");
-            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer < 10 && guessCompare2Answer >= 1) {
+            } else if (guessCompare2Answer < previousCompare2Answer && guessCompare2Answer >= 1) {
 
                 $('#feedback').text("INFERNO FIRE HEAT!");
                 console.log("INFERNO FIRE HEAT!");
@@ -141,6 +140,7 @@ $(document).ready(function() {
                 console.log("BINGO YOU GUESSED THE NUMBER!");
 
             }
+
         }
 
         guessCount++;
